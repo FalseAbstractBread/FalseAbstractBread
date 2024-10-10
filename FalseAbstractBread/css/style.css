@@ -1,0 +1,37 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+header
+{
+    background-color: rgb(218, 218, 218);
+}
+nav
+{
+    background-color: burlywood;
+}
+main
+{
+    background-color: lightcoral;
+    font-size: 105%;
+}
+footer
+{
+    background-color: lightcyan;
+}
+li
+{display: inline-flex;         /* Makes the list items display in a row */
+    justify-content: space-around; /* Distributes the items evenly */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0 150px 0 0;            /* Removes padding */
+    margin: inherit;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+p{
+    line-height: 30px;
+}
